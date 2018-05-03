@@ -6,8 +6,8 @@ def classify(features_train, labels_train):
     
     
     ### your code goes here!
-    from sklearn.naive_bayes import GaussianNB
-    clf=GaussianNB()
-    clf.fit(features_train,labels_train)
-    return clf
+    from sklearn.naive_bayes import GaussianNB 
+    clf=GaussianNB() # initialise
+    clf.fit(features_train,labels_train) # as input of our function "classify" are features_train, labels_train
+    return clf # return value from the function
     
